@@ -1,0 +1,1141 @@
+{
+  "1A": {
+    "title": "Anglo-American Non Fiction",
+    "shelves": {
+      "1A-01": {
+        "occupied": true,
+        "book": {
+          "title": "Educated",
+          "author": "Tara Westover",
+          "summary": "A memoir detailing Tara Westover's journey from her strict and abusive upbringing in rural Idaho to earning a PhD at the University of Cambridge, overcoming immense personal and educational challenges.",
+          "image_url": "https://example.com/educated.jpg",
+          "isbn": "9780399590504",
+          "status": "rented",
+          "type": "Memoir",
+          "categories": ["Autobiography", "Education", "Personal Development"],
+          "language": "English"
+        }
+      },
+      "1A-02": {
+        "occupied": true,
+        "book": {
+          "title": "The Immortal Life of Henrietta Lacks",
+          "author": "Rebecca Skloot",
+          "summary": "The story of Henrietta Lacks, whose cancer cells were taken without her consent in 1951 and became one of the most important tools in medicine. The book explores the impact of her cells on medical science and the ethical issues surrounding them.",
+          "image_url": "https://example.com/immortal_life.jpg",
+          "isbn": "9781400052189",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "Science", "Medical Ethics"],
+          "language": "English"
+        }
+      },
+      "1A-03": {
+        "occupied": false
+      },
+      "1A-04": {
+        "occupied": true,
+        "book": {
+          "title": "Thinking, Fast and Slow",
+          "author": "Daniel Kahneman",
+          "summary": "A comprehensive analysis of human thinking processes, exploring the two systems that guide our way of thinking: the fast and intuitive system and the slow and deliberate system.",
+          "image_url": "https://example.com/thinking.jpg",
+          "isbn": "9780374533557",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": [
+            "Psychology",
+            "Behavioral Economics",
+            "Personal Development"
+          ],
+          "language": "English"
+        }
+      },
+      "1A-05": {
+        "occupied": true,
+        "book": {
+          "title": "The Gene: An Intimate History",
+          "author": "Siddhartha Mukherjee",
+          "summary": "A detailed history of the gene, from its discovery to its implications for medicine and human identity, exploring the science and personal stories behind genetic research.",
+          "image_url": "https://example.com/gene.jpg",
+          "isbn": "9781476746608",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Science", "Genetics", "Medicine"],
+          "language": "English"
+        }
+      },
+      "1A-06": {
+        "occupied": true,
+        "book": {
+          "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+          "author": "Susan Cain",
+          "summary": "An exploration of the strengths and contributions of introverts in a society that often values extroverted traits, with insights on how introverts can thrive.",
+          "image_url": "https://example.com/quiet.jpg",
+          "isbn": "9780307352156",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Psychology", "Personal Development", "Leadership"],
+          "language": "English"
+        }
+      },
+      "1A-07": {
+        "occupied": true,
+        "book": {
+          "title": "The Wright Brothers",
+          "author": "David McCullough",
+          "summary": "A biography of the Wright brothers, detailing their journey from bicycle mechanics to inventors of the first successful airplane, highlighting their perseverance and ingenuity.",
+          "image_url": "https://example.com/wright_brothers.jpg",
+          "isbn": "9781476728758",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "History", "Innovation"],
+          "language": "English"
+        }
+      },
+      "1A-08": {
+        "occupied": true,
+        "book": {
+          "title": "A Brief History of Time",
+          "author": "Stephen Hawking",
+          "summary": "An accessible explanation of complex cosmological concepts, including the nature of time, black holes, and the origin of the universe.",
+          "image_url": "https://example.com/brief_history.jpg",
+          "isbn": "9780553380163",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Science", "Physics", "Cosmology"],
+          "language": "English"
+        }
+      },
+      "1A-09": {
+        "occupied": true,
+        "book": {
+          "title": "Outliers: The Story of Success",
+          "author": "Malcolm Gladwell",
+          "summary": "An analysis of the factors contributing to high levels of success, including cultural background, timing, and the 10,000-hour rule.",
+          "image_url": "https://example.com/outliers.jpg",
+          "isbn": "9780316017923",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Success", "Psychology", "Sociology"],
+          "language": "English"
+        }
+      },
+      "1A-10": {
+        "occupied": true,
+        "book": {
+          "title": "The Power of Habit",
+          "author": "Charles Duhigg",
+          "summary": "An investigation into the science of habits, including how they form and how they can be changed, both individually and organizationally.",
+          "image_url": "https://example.com/power_of_habit.jpg",
+          "isbn": "9780812981605",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Personal Development", "Psychology", "Business"],
+          "language": "English"
+        }
+      },
+      "1A-11": {
+        "occupied": true,
+        "book": {
+          "title": "The Emperor of All Maladies",
+          "author": "Siddhartha Mukherjee",
+          "summary": "A comprehensive history of cancer, from its earliest documented cases to the present day, exploring its impact on humanity and advances in treatment.",
+          "image_url": "https://example.com/emperor_all_maladies.jpg",
+          "isbn": "9781439170915",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Medicine", "History", "Oncology"],
+          "language": "English"
+        }
+      },
+      "1A-12": {
+        "occupied": true,
+        "book": {
+          "title": "The Immortal Life of Henrietta Lacks",
+          "author": "Rebecca Skloot",
+          "summary": "The story of Henrietta Lacks, whose cancer cells were taken without her consent in 1951 and became one of the most important tools in medicine. The book explores the impact of her cells on medical science and the ethical issues surrounding them.",
+          "image_url": "https://example.com/immortal_life.jpg",
+          "isbn": "9781400052189",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "Science", "Medical Ethics"],
+          "language": "English"
+        }
+      },
+      "1A-13": {
+        "occupied": true,
+        "book": {
+          "title": "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+          "author": "Susan Cain",
+          "summary": "An exploration of the strengths and contributions of introverts in a society that often values extroverted traits, with insights on how introverts can thrive.",
+          "image_url": "https://example.com/quiet.jpg",
+          "isbn": "9780307352156",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Psychology", "Personal Development", "Leadership"],
+          "language": "English"
+        }
+      },
+      "1A-14": {
+        "occupied": true,
+        "book": {
+          "title": "Sapiens: A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "summary": "A broad overview of human history, exploring the major shifts in societal structures, culture, and technology from the emergence of Homo sapiens to the present.",
+          "image_url": "https://example.com/sapiens.jpg",
+          "isbn": "9780062316097",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "Anthropology", "Philosophy"],
+          "language": "English"
+        }
+      },
+      "1A-15": {
+        "occupied": true,
+        "book": {
+          "title": "Guns, Germs, and Steel",
+          "author": "Jared Diamond",
+          "summary": "An examination of the factors that influenced the development of human societies, focusing on geography, biology, and technology.",
+          "image_url": "https://example.com/guns_germs_steel.jpg",
+          "isbn": "9780393317558",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "Geography", "Sociology"],
+          "language": "English"
+        }
+      },
+      "1A-16": {
+        "occupied": true,
+        "book": {
+          "title": "The Gene: An Intimate History",
+          "author": "Siddhartha Mukherjee",
+          "summary": "A detailed history of the gene, from its discovery to its implications for medicine and human identity, exploring the science and personal stories behind genetic research.",
+          "image_url": "https://example.com/gene.jpg",
+          "isbn": "9781476746608",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Science", "Genetics", "Medicine"],
+          "language": "English"
+        }
+      },
+      "1A-17": {
+        "occupied": true,
+        "book": {
+          "title": "The Power of Habit",
+          "author": "Charles Duhigg",
+          "summary": "An investigation into the science of habits, including how they form and how they can be changed, both individually and organizationally.",
+          "image_url": "https://example.com/power_of_habit.jpg",
+          "isbn": "9780812981605",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Personal Development", "Psychology", "Business"],
+          "language": "English"
+        }
+      },
+      "1A-18": {
+        "occupied": true,
+        "book": {
+          "title": "Blink: The Power of Thinking Without Thinking",
+          "author": "Malcolm Gladwell",
+          "summary": "An exploration of the subconscious processes that influence our decisions and actions, and how snap judgments can be as accurate as those made with more thought.",
+          "image_url": "https://example.com/blink.jpg",
+          "isbn": "9780316010665",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Psychology", "Personal Development", "Business"],
+          "language": "English"
+        }
+      },
+      "1A-19": {
+        "occupied": true,
+        "book": {
+          "title": "Thinking, Fast and Slow",
+          "author": "Daniel Kahneman",
+          "summary": "A comprehensive analysis of human thinking processes, exploring the two systems that guide our way of thinking: the fast and intuitive system and the slow and deliberate system.",
+          "image_url": "https://example.com/thinking.jpg",
+          "isbn": "9780374533557",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": [
+            "Psychology",
+            "Behavioral Economics",
+            "Personal Development"
+          ],
+          "language": "English"
+        }
+      },
+      "1A-20": {
+        "occupied": true,
+        "book": {
+          "title": "The Wright Brothers",
+          "author": "David McCullough",
+          "summary": "A biography of the Wright brothers, detailing their journey from bicycle mechanics to inventors of the first successful airplane, highlighting their perseverance and ingenuity.",
+          "image_url": "https://example.com/wright_brothers.jpg",
+          "isbn": "9781476728758",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "History", "Innovation"],
+          "language": "English"
+        }
+      }
+    }
+  },
+  "1B": {
+    "title": "Foreign Non Fiction",
+    "shelves": {
+      "1B-01": {
+        "occupied": true,
+        "book": {
+          "title": "El lado oscuro del corazón",
+          "author": "Mario Benedetti",
+          "summary": "Un análisis profundo de la condición humana y el impacto de la política en la vida personal y social, escrito por uno de los grandes autores latinoamericanos.",
+          "image_url": "https://example.com/lado_oscuro.jpg",
+          "isbn": "9788472236684",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "Politics", "Latin American"],
+          "language": "Spanish"
+        }
+      },
+      "1B-02": {
+        "occupied": true,
+        "book": {
+          "title": "Hiroshima",
+          "author": "John Hersey",
+          "summary": "A groundbreaking account of the atomic bombing of Hiroshima, detailing the experiences of six survivors and the aftermath of the attack.",
+          "image_url": "https://example.com/hiroshima.jpg",
+          "isbn": "9780393327745",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "War", "Survivor Accounts"],
+          "language": "English"
+        }
+      },
+      "1B-03": {
+        "occupied": true,
+        "book": {
+          "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+          "author": "Jonathan Haidt",
+          "summary": "An exploration of the psychological underpinnings of morality and the reasons behind political and religious divisions.",
+          "image_url": "https://example.com/righteous_mind.jpg",
+          "isbn": "9780307377906",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Psychology", "Politics", "Religion"],
+          "language": "English"
+        }
+      },
+      "1B-04": {
+        "occupied": true,
+        "book": {
+          "title": "The Wind-Up Bird Chronicle",
+          "author": "Haruki Murakami",
+          "summary": "Although known for fiction, this non-fiction book provides an introspective look at the human condition and identity, merging personal reflections with broader themes.",
+          "image_url": "https://example.com/wind_up_bird.jpg",
+          "isbn": "9780375704024",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Personal Development", "Japanese"],
+          "language": "English"
+        }
+      },
+      "1B-05": {
+        "occupied": true,
+        "book": {
+          "title": "Croatian War of Independence",
+          "author": "Mladen Klemenčić",
+          "summary": "A comprehensive account of the Croatian War of Independence, covering the political, social, and military aspects of the conflict.",
+          "image_url": "https://example.com/croatian_war.jpg",
+          "isbn": "9789536330763",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "War", "Politics"],
+          "language": "Croatian"
+        }
+      },
+      "1B-06": {
+        "occupied": true,
+        "book": {
+          "title": "The Man Without a Face",
+          "author": "Masha Gessen",
+          "summary": "A detailed account of the life of Vladimir Putin and the rise of modern Russia, examining the political and social changes under his leadership.",
+          "image_url": "https://example.com/man_without_face.jpg",
+          "isbn": "9781594487286",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Politics", "Biography", "Russian"],
+          "language": "English"
+        }
+      },
+      "1B-07": {
+        "occupied": true,
+        "book": {
+          "title": "The Emperor of All Maladies",
+          "author": "Siddhartha Mukherjee",
+          "summary": "A comprehensive history of cancer, from its earliest documented cases to the present day, exploring its impact on humanity and advances in treatment.",
+          "image_url": "https://example.com/emperor_all_maladies.jpg",
+          "isbn": "9781439170915",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Medicine", "History", "Oncology"],
+          "language": "English"
+        }
+      },
+      "1B-08": {
+        "occupied": true,
+        "book": {
+          "title": "The Art of War",
+          "author": "Sun Tzu",
+          "summary": "An ancient Chinese military treatise on strategy, tactics, and warfare, offering insights on leadership and strategy that have been applied beyond the battlefield.",
+          "image_url": "https://example.com/art_of_war.jpg",
+          "isbn": "9781590302255",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Military", "Strategy", "Chinese"],
+          "language": "English"
+        }
+      },
+      "1B-09": {
+        "occupied": true,
+        "book": {
+          "title": "Pride and Prejudice: A New Edition",
+          "author": "Jane Austen",
+          "summary": "Though primarily known for fiction, this edition provides a detailed exploration of the social and economic issues depicted in Austen's novel, with extensive commentary and analysis.",
+          "image_url": "https://example.com/pride_prejudice.jpg",
+          "isbn": "9780486284736",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Literary Analysis", "British"],
+          "language": "English"
+        }
+      },
+      "1B-10": {
+        "occupied": true,
+        "book": {
+          "title": "The Story of My Experiments with Truth",
+          "author": "Mahatma Gandhi",
+          "summary": "An autobiography detailing Gandhi's personal journey of self-discovery and his experiments with non-violent resistance and truth.",
+          "image_url": "https://example.com/experiments_truth.jpg",
+          "isbn": "9780486298504",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Biography", "Political Philosophy", "Indian"],
+          "language": "English"
+        }
+      },
+      "1B-11": {
+        "occupied": true,
+        "book": {
+          "title": "The Diary of a Young Girl",
+          "author": "Anne Frank",
+          "summary": "The diary of Anne Frank, a Jewish girl in hiding during World War II, documenting her experiences and reflections during the Holocaust.",
+          "image_url": "https://example.com/diary_young_girl.jpg",
+          "isbn": "9780553296983",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Memoir", "History", "Holocaust"],
+          "language": "English"
+        }
+      },
+      "1B-12": {
+        "occupied": true,
+        "book": {
+          "title": "The Origins of Totalitarianism",
+          "author": "Hannah Arendt",
+          "summary": "A study on the rise of totalitarian regimes, examining the origins and development of totalitarianism in the 20th century.",
+          "image_url": "https://example.com/origins_totalitarianism.jpg",
+          "isbn": "9780156701536",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Political Science", "History", "Philosophy"],
+          "language": "English"
+        }
+      },
+      "1B-13": {
+        "occupied": true,
+        "book": {
+          "title": "The Third Wave",
+          "author": "Alvin Toffler",
+          "summary": "An exploration of the technological and social changes shaping the future, proposing a new era of societal evolution beyond the Industrial Age.",
+          "image_url": "https://example.com/third_wave.jpg",
+          "isbn": "9780553246986",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Futurology", "Technology", "Social Change"],
+          "language": "English"
+        }
+      },
+      "1B-14": {
+        "occupied": true,
+        "book": {
+          "title": "Sapiens: A Brief History of Humankind",
+          "author": "Yuval Noah Harari",
+          "summary": "A broad overview of human history, exploring the major shifts in societal structures, culture, and technology from the emergence of Homo sapiens to the present.",
+          "image_url": "https://example.com/sapiens.jpg",
+          "isbn": "9780062316097",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "Anthropology", "Philosophy"],
+          "language": "English"
+        }
+      },
+      "1B-15": {
+        "occupied": true,
+        "book": {
+          "title": "Guns, Germs, and Steel",
+          "author": "Jared Diamond",
+          "summary": "An examination of the factors that influenced the development of human societies, focusing on geography, biology, and technology.",
+          "image_url": "https://example.com/guns_germs_steel.jpg",
+          "isbn": "9780393317558",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "Geography", "Sociology"],
+          "language": "English"
+        }
+      },
+      "1B-16": {
+        "occupied": true,
+        "book": {
+          "title": "The Gulag Archipelago",
+          "author": "Aleksandr Solzhenitsyn",
+          "summary": "A detailed and personal account of life in the Soviet Union's forced labor camps, exposing the brutal realities of the Gulag system.",
+          "image_url": "https://example.com/gulag_archipelago.jpg",
+          "isbn": "9780061253727",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Memoir", "History", "Political"],
+          "language": "English"
+        }
+      },
+      "1B-17": {
+        "occupied": true,
+        "book": {
+          "title": "One Hundred Years of Solitude: The Legacy",
+          "author": "Gabriel García Márquez",
+          "summary": "An examination of the impact and significance of García Márquez's seminal work, exploring its themes, historical context, and cultural influence.",
+          "image_url": "https://example.com/solitude_legacy.jpg",
+          "isbn": "9780060883287",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["Literary Criticism", "Latin American"],
+          "language": "English"
+        }
+      },
+      "1B-18": {
+        "occupied": true,
+        "book": {
+          "title": "A Brief History of Time",
+          "author": "Stephen Hawking",
+          "summary": "A popular science book exploring fundamental concepts in physics, cosmology, and the nature of the universe, written by one of the foremost physicists of our time.",
+          "image_url": "https://example.com/brief_history_time.jpg",
+          "isbn": "9780553380163",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Science", "Physics", "Cosmology"],
+          "language": "English"
+        }
+      },
+      "1B-19": {
+        "occupied": true,
+        "book": {
+          "title": "The History of the Decline and Fall of the Roman Empire",
+          "author": "Edward Gibbon",
+          "summary": "A classic work of history detailing the rise and fall of the Roman Empire, analyzing the causes and consequences of its decline.",
+          "image_url": "https://example.com/decline_fall_roman_empire.jpg",
+          "isbn": "9780140437647",
+          "status": "not rented",
+          "type": "Non-Fiction",
+          "categories": ["History", "Roman Empire", "Classics"],
+          "language": "English"
+        }
+      },
+      "1B-20": {
+        "occupied": true,
+        "book": {
+          "title": "The Structure of Scientific Revolutions",
+          "author": "Thomas S. Kuhn",
+          "summary": "A landmark work in the philosophy of science, exploring how scientific paradigms shift and how these shifts influence the progress of scientific knowledge.",
+          "image_url": "https://example.com/structure_scientific_revolutions.jpg",
+          "isbn": "9780226458120",
+          "status": "rented",
+          "type": "Non-Fiction",
+          "categories": ["Philosophy", "Science", "History of Science"],
+          "language": "English"
+        }
+      }
+    }
+  },
+
+  "2A": {
+    "title": " Anglo-American Fiction",
+    "shelves": {
+      "2A-01": {
+        "occupied": true,
+        "book": {
+          "title": "To Kill a Mockingbird",
+          "author": "Harper Lee",
+          "summary": "A novel set in the American South during the 1930s, dealing with themes of racial injustice and moral growth through the eyes of a young girl, Scout Finch.",
+          "image_url": "https://example.com/to_kill_mockingbird.jpg",
+          "isbn": "9780060935467",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-02": {
+        "occupied": true,
+        "book": {
+          "title": "1984",
+          "author": "George Orwell",
+          "summary": "A dystopian novel set in a totalitarian regime where surveillance and propaganda control every aspect of life, focusing on the struggles of Winston Smith against the oppressive state.",
+          "image_url": "https://example.com/1984.jpg",
+          "isbn": "9780451524935",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Dystopian", "Political", "Classic"],
+          "language": "English"
+        }
+      },
+      "2A-03": {
+        "occupied": true,
+        "book": {
+          "title": "The Great Gatsby",
+          "author": "F. Scott Fitzgerald",
+          "summary": "A novel about the American Dream and the decadence of the Jazz Age, focusing on the enigmatic Jay Gatsby and his pursuit of wealth and love.",
+          "image_url": "https://example.com/great_gatsby.jpg",
+          "isbn": "9780743273565",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-04": {
+        "occupied": true,
+        "book": {
+          "title": "The Catcher in the Rye",
+          "author": "J.D. Salinger",
+          "summary": "A novel following the experiences of Holden Caulfield, a disenchanted teenager navigating the complexities of adulthood and societal expectations.",
+          "image_url": "https://example.com/catcher_rye.jpg",
+          "isbn": "9780316769488",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-05": {
+        "occupied": true,
+        "book": {
+          "title": "Beloved",
+          "author": "Toni Morrison",
+          "summary": "A novel exploring the haunting legacy of slavery through the life of Sethe, an escaped slave who is confronted by the ghost of her dead daughter.",
+          "image_url": "https://example.com/beloved.jpg",
+          "isbn": "9781400033416",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["American", "Historical", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-06": {
+        "occupied": true,
+        "book": {
+          "title": "Catch-22",
+          "author": "Joseph Heller",
+          "summary": "A satirical novel set during World War II, following the absurdities and contradictions faced by Captain John Yossarian and his fellow airmen.",
+          "image_url": "https://example.com/catch22.jpg",
+          "isbn": "9781451626650",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Satire", "War", "American"],
+          "language": "English"
+        }
+      },
+      "2A-07": {
+        "occupied": true,
+        "book": {
+          "title": "The Road",
+          "author": "Cormac McCarthy",
+          "summary": "A post-apocalyptic novel about a father and son's journey across a desolate landscape, struggling for survival and hope amidst the ruins of civilization.",
+          "image_url": "https://example.com/road.jpg",
+          "isbn": "9780307387897",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Post-Apocalyptic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-08": {
+        "occupied": true,
+        "book": {
+          "title": "The Bell Jar",
+          "author": "Sylvia Plath",
+          "summary": "A semi-autobiographical novel depicting the protagonist, Esther Greenwood, and her struggle with mental illness and societal expectations.",
+          "image_url": "https://example.com/bell_jar.jpg",
+          "isbn": "9780060837020",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-09": {
+        "occupied": true,
+        "book": {
+          "title": "Slaughterhouse-Five",
+          "author": "Kurt Vonnegut",
+          "summary": "A science fiction novel blending elements of autobiography and fantasy, focusing on Billy Pilgrim's experiences during World War II and his encounters with time travel.",
+          "image_url": "https://example.com/slaughterhouse_five.jpg",
+          "isbn": "9780385333849",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Science Fiction", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-10": {
+        "occupied": true,
+        "book": {
+          "title": "The Handmaid's Tale",
+          "author": "Margaret Atwood",
+          "summary": "A dystopian novel set in a totalitarian society where women are subjugated and controlled, focusing on the story of Offred, a handmaid struggling for her freedom and identity.",
+          "image_url": "https://example.com/handmaids_tale.jpg",
+          "isbn": "9780385490818",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Dystopian", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-11": {
+        "occupied": true,
+        "book": {
+          "title": "Never Let Me Go",
+          "author": "Kazuo Ishiguro",
+          "summary": "A dystopian novel that follows the lives of clones who are created to provide organ donations, exploring themes of humanity, memory, and loss.",
+          "image_url": "https://example.com/never_let_me_go.jpg",
+          "isbn": "9781400078776",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Dystopian", "Science Fiction", "British"],
+          "language": "English"
+        }
+      },
+      "2A-12": {
+        "occupied": true,
+        "book": {
+          "title": "The Picture of Dorian Gray",
+          "author": "Oscar Wilde",
+          "summary": "A philosophical novel exploring themes of aestheticism and moral corruption through the story of Dorian Gray, a man whose portrait ages while he remains youthful.",
+          "image_url": "https://example.com/picture_dorian_gray.jpg",
+          "isbn": "9780486282503",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Classic", "Philosophy", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-13": {
+        "occupied": true,
+        "book": {
+          "title": "The Hobbit",
+          "author": "J.R.R. Tolkien",
+          "summary": "A fantasy novel following the journey of Bilbo Baggins, a hobbit who embarks on an adventure to help a group of dwarves reclaim their homeland from a dragon.",
+          "image_url": "https://example.com/hobbit.jpg",
+          "isbn": "9780618968633",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Fantasy", "British", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-14": {
+        "occupied": true,
+        "book": {
+          "title": "Jane Eyre",
+          "author": "Charlotte Brontë",
+          "summary": "A novel that follows the life of the orphaned Jane Eyre, from her difficult childhood to her experiences as a governess and her complex relationship with Mr. Rochester.",
+          "image_url": "https://example.com/jane_eyre.jpg",
+          "isbn": "9780141441146",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Classic", "British", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-15": {
+        "occupied": true,
+        "book": {
+          "title": "Wuthering Heights",
+          "author": "Emily Brontë",
+          "summary": "A novel set on the Yorkshire moors, exploring themes of passion, revenge, and the destructive power of love through the story of Heathcliff and Catherine Earnshaw.",
+          "image_url": "https://example.com/wuthering_heights.jpg",
+          "isbn": "9781853260019",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Classic", "British", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-16": {
+        "occupied": true,
+        "book": {
+          "title": "Little Women",
+          "author": "Louisa May Alcott",
+          "summary": "A novel depicting the lives of the four March sisters as they grow up in post-Civil War America, focusing on their personal growth and family relationships.",
+          "image_url": "https://example.com/little_women.jpg",
+          "isbn": "9780147514011",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-17": {
+        "occupied": true,
+        "book": {
+          "title": "A Catcher in the Rye",
+          "author": "J.D. Salinger",
+          "summary": "A novel about Holden Caulfield, a teenager struggling with the challenges of growing up and finding his place in the world.",
+          "image_url": "https://example.com/catcher_rye_2.jpg",
+          "isbn": "9780316769488",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-18": {
+        "occupied": true,
+        "book": {
+          "title": "The Outsiders",
+          "author": "S.E. Hinton",
+          "summary": "A novel about the struggles between two rival gangs, the Greasers and the Socs, through the eyes of a young boy named Ponyboy Curtis.",
+          "image_url": "https://example.com/outsiders.jpg",
+          "isbn": "9780140385724",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Young Adult", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-19": {
+        "occupied": true,
+        "book": {
+          "title": "The Lovely Bones",
+          "author": "Alice Sebold",
+          "summary": "A novel narrated by a teenage girl who was murdered, watching from her personal heaven as her family and friends cope with her loss and search for her killer.",
+          "image_url": "https://example.com/lovely_bones.jpg",
+          "isbn": "9780316334754",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Contemporary", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2A-20": {
+        "occupied": true,
+        "book": {
+          "title": "The Color Purple",
+          "author": "Alice Walker",
+          "summary": "A novel set in the American South, following the life of Celie, an African American woman who overcomes abuse and oppression to find her own voice and independence.",
+          "image_url": "https://example.com/color_purple.jpg",
+          "isbn": "9780156028356",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["American", "Historical", "Literature"],
+          "language": "English"
+        }
+      }
+    }
+  },
+
+  "2B": {
+    "title": "Foreign Fiction",
+    "shelves": {
+      "2B-01": {
+        "occupied": true,
+        "book": {
+          "title": "One Hundred Years of Solitude",
+          "author": "Gabriel García Márquez",
+          "summary": "A landmark of magical realism, this novel chronicles the Buendía family's multi-generational story in the fictional town of Macondo, blending the extraordinary with the mundane.",
+          "image_url": "https://example.com/one_hundred_years_solitude.jpg",
+          "isbn": "9780060883287",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Magical Realism", "Colombian", "Literature"],
+          "language": "Spanish"
+        }
+      },
+      "2B-02": {
+        "occupied": true,
+        "book": {
+          "title": "The Stranger",
+          "author": "Albert Camus",
+          "summary": "A novel about Meursault, an emotionally detached Algerian who is indifferent to the events around him, leading to his existential struggle and confrontation with society's norms.",
+          "image_url": "https://example.com/stranger.jpg",
+          "isbn": "9780679720201",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Existential", "French", "Literature"],
+          "language": "French"
+        }
+      },
+      "2B-03": {
+        "occupied": true,
+        "book": {
+          "title": "The Master and Margarita",
+          "author": "Mikhail Bulgakov",
+          "summary": "A novel intertwining the story of the Devil visiting Soviet Moscow with a retelling of the trial of Jesus in ancient Jerusalem, exploring themes of good, evil, and artistic freedom.",
+          "image_url": "https://example.com/master_margarita.jpg",
+          "isbn": "9780141183740",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Fantasy", "Russian", "Literature"],
+          "language": "Russian"
+        }
+      },
+      "2B-04": {
+        "occupied": true,
+        "book": {
+          "title": "Crime and Punishment",
+          "author": "Fyodor Dostoevsky",
+          "summary": "A psychological novel exploring the mind of Raskolnikov, a man who commits a murder and grapples with his guilt and redemption in 19th-century St. Petersburg.",
+          "image_url": "https://example.com/crime_punishment.jpg",
+          "isbn": "9780486415871",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Psychological", "Russian", "Literature"],
+          "language": "Russian"
+        }
+      },
+      "2B-05": {
+        "occupied": true,
+        "book": {
+          "title": "Norwegian Wood",
+          "author": "Haruki Murakami",
+          "summary": "A novel about a college student in Tokyo who is deeply affected by the death of his friend and becomes entangled in complex relationships with two women.",
+          "image_url": "https://example.com/norwegian_wood.jpg",
+          "isbn": "9780375704024",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Contemporary", "Japanese", "Literature"],
+          "language": "Japanese"
+        }
+      },
+      "2B-06": {
+        "occupied": true,
+        "book": {
+          "title": "The Alchemist",
+          "author": "Paulo Coelho",
+          "summary": "A novel about Santiago, a shepherd who dreams of finding a hidden treasure, and his journey across the desert which teaches him about the true nature of happiness and personal legend.",
+          "image_url": "https://example.com/alchemist.jpg",
+          "isbn": "9780061122415",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Philosophical", "Brazilian", "Literature"],
+          "language": "Portuguese"
+        }
+      },
+      "2B-07": {
+        "occupied": true,
+        "book": {
+          "title": "The Shadow of the Wind",
+          "author": "Carlos Ruiz Zafón",
+          "summary": "A novel set in post-war Barcelona, where a young boy discovers a mysterious book that leads him into a labyrinth of intrigue and hidden secrets.",
+          "image_url": "https://example.com/shadow_wind.jpg",
+          "isbn": "9780143034902",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Mystery", "Spanish", "Literature"],
+          "language": "Spanish"
+        }
+      },
+      "2B-08": {
+        "occupied": true,
+        "book": {
+          "title": "The Name of the Rose",
+          "author": "Umberto Eco",
+          "summary": "A historical mystery novel set in a 14th-century Italian monastery, focusing on Brother William of Baskerville as he investigates a series of murders within the abbey.",
+          "image_url": "https://example.com/name_rose.jpg",
+          "isbn": "9780151011894",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Historical", "Italian", "Literature"],
+          "language": "Italian"
+        }
+      },
+      "2B-09": {
+        "occupied": true,
+        "book": {
+          "title": "Blindness",
+          "author": "José Saramago",
+          "summary": "A novel about an epidemic of sudden blindness that strikes a city, exploring the breakdown of societal norms and human behavior in the face of crisis.",
+          "image_url": "https://example.com/blindness.jpg",
+          "isbn": "9780151010316",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Dystopian", "Portuguese", "Literature"],
+          "language": "Portuguese"
+        }
+      },
+      "2B-10": {
+        "occupied": true,
+        "book": {
+          "title": "The Wind-Up Bird Chronicle",
+          "author": "Haruki Murakami",
+          "summary": "A surreal and complex novel following Toru Okada's quest to find his missing wife, blending elements of reality and fantasy in a unique narrative.",
+          "image_url": "https://example.com/wind_up_bird.jpg",
+          "isbn": "9780679775432",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Surreal", "Japanese", "Literature"],
+          "language": "Japanese"
+        }
+      },
+      "2B-11": {
+        "occupied": true,
+        "book": {
+          "title": "The God of Small Things",
+          "author": "Arundhati Roy",
+          "summary": "A novel about the complex and tragic lives of fraternal twins in Kerala, India, exploring themes of love, caste, and family secrets.",
+          "image_url": "https://example.com/god_small_things.jpg",
+          "isbn": "9781400034651",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Indian", "Literature", "Family"],
+          "language": "English"
+        }
+      },
+      "2B-12": {
+        "occupied": true,
+        "book": {
+          "title": "The House of the Spirits",
+          "author": "Isabel Allende",
+          "summary": "A novel of magical realism about the Trueba family and their experiences with love, politics, and supernatural occurrences in Chile.",
+          "image_url": "https://example.com/house_spirits.jpg",
+          "isbn": "9781501117831",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Magical Realism", "Chilean", "Literature"],
+          "language": "Spanish"
+        }
+      },
+      "2B-13": {
+        "occupied": true,
+        "book": {
+          "title": "My Name Is Red",
+          "author": "Orhan Pamuk",
+          "summary": "A historical novel set in the Ottoman Empire, revolving around the murder of an illuminator and exploring themes of art, love, and religion through a complex narrative.",
+          "image_url": "https://example.com/name_red.jpg",
+          "isbn": "9780375706850",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Historical", "Turkish", "Literature"],
+          "language": "Turkish"
+        }
+      },
+      "2B-14": {
+        "occupied": true,
+        "book": {
+          "title": "Pachinko",
+          "author": "Min Jin Lee",
+          "summary": "A multi-generational epic that follows a Korean family living in Japan, navigating issues of identity, discrimination, and resilience.",
+          "image_url": "https://example.com/pachinko.jpg",
+          "isbn": "9781455563920",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Historical", "Korean", "Literature"],
+          "language": "English"
+        }
+      },
+      "2B-15": {
+        "occupied": true,
+        "book": {
+          "title": "The Three-Body Problem",
+          "author": "Liu Cixin",
+          "summary": "A science fiction novel that begins with a secret military project and evolves into a story about first contact with an alien civilization.",
+          "image_url": "https://example.com/three_body_problem.jpg",
+          "isbn": "9780765382030",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Science Fiction", "Chinese", "Literature"],
+          "language": "Chinese"
+        }
+      },
+      "2B-16": {
+        "occupied": true,
+        "book": {
+          "title": "The Brothers Karamazov",
+          "author": "Fyodor Dostoevsky",
+          "summary": "A philosophical and psychological novel dealing with faith, doubt, and morality through the story of the Karamazov family and the murder of the father.",
+          "image_url": "https://example.com/brothers_karamazov.jpg",
+          "isbn": "9780374528379",
+          "status": "rented",
+          "type": "Novel",
+          "categories": ["Philosophical", "Russian", "Literature"],
+          "language": "Russian"
+        }
+      },
+      "2B-17": {
+        "occupied": true,
+        "book": {
+          "title": "Siddhartha",
+          "author": "Hermann Hesse",
+          "summary": "A novel about Siddhartha's journey for enlightenment and self-discovery, paralleling the life of the Buddha and exploring themes of spirituality and personal growth.",
+          "image_url": "https://example.com/siddhartha.jpg",
+          "isbn": "9780553208849",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Philosophical", "German", "Literature"],
+          "language": "German"
+        }
+      },
+      "2B-18": {
+        "occupied": true,
+        "book": {
+          "title": "The Old Man and the Sea",
+          "author": "Ernest Hemingway",
+          "summary": "A novella about an aging Cuban fisherman, Santiago, and his struggle to catch a giant marlin, representing the themes of perseverance and the human condition.",
+          "image_url": "https://example.com/old_man_sea.jpg",
+          "isbn": "9780684801223",
+          "status": "rented",
+          "type": "Novella",
+          "categories": ["Classic", "American", "Literature"],
+          "language": "English"
+        }
+      },
+      "2B-19": {
+        "occupied": true,
+        "book": {
+          "title": "The Tin Drum",
+          "author": "Günter Grass",
+          "summary": "A novel featuring Oskar Matzerath, who stops growing at the age of three and uses his drum to influence events around him, set against the backdrop of 20th-century German history.",
+          "image_url": "https://example.com/tin_drum.jpg",
+          "isbn": "9780156185830",
+          "status": "not rented",
+          "type": "Novel",
+          "categories": ["Magical Realism", "German", "Literature"],
+          "language": "German"
+        }
+      },
+      "2B-20": {
+        "occupied": true,
+        "book": {
+          "title": "The Little Prince",
+          "author": "Antoine de Saint-Exupéry",
+          "summary": "A poetic tale about a young prince who travels from planet to planet, meeting various characters and discovering profound truths about life and human nature.",
+          "image_url": "https://example.com/little_prince.jpg",
+          "isbn": "9780156012195",
+          "status": "rented",
+          "type": "Novella",
+          "categories": ["Classic", "French", "Literature"],
+          "language": "French"
+        }
+      }
+    }
+  }
+}
