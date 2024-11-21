@@ -2,9 +2,13 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
+import Library from "./components/Library.jsx";
+import { BooksProvider } from "./context/BooksContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App />
+    <BooksProvider>
+      <App />
+    </BooksProvider>
   </StrictMode>
 );

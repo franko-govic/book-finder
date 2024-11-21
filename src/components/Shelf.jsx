@@ -17,14 +17,12 @@ function Shelf({ shelfName }) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      {shelfName}
-
       <div
         className={`absolute -top-10 p-1 bg-green-300 ${
           info ? "flex" : "hidden"
         }`}
       >
-        hi
+        {shelfName}
       </div>
     </div>
   );
