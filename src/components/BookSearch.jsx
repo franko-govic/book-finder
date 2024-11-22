@@ -18,7 +18,7 @@ const BookSearch = () => {
   };
 
   return (
-    <div className="h-full flex flex-col gap-2 ">
+    <div className="w-full h-full flex flex-col gap-2 ">
       <h2>Search for a Book</h2>
       <input
         type="text"
