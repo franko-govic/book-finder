@@ -5,7 +5,7 @@ function Navbar() {
   const navData = ["Browse", "Map", "Help", "Account"];
 
   return (
-    <div className="flex justify-between items-center">
+    <div className="flex h-[10vh] justify-between items-center">
       <div className="text-3xl font-bold">
         {" "}
         <Link to={"/"}>BookFinder</Link>

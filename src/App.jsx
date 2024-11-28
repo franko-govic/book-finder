@@ -6,10 +6,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="h-screen w-screen p-5">
+    <div className="h-screen w-full flex flex-col p-5 justify-between gap-5">
       <BrowserRouter>
         <Navbar />
-        <div className="w-full h-full">
+        <div className="h-full">
           <Routes>
             <Route path="/" element={<Home />} />
           </Routes>
