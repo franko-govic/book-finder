@@ -5,6 +5,8 @@ export const BooksContext = createContext();
 
 export const BooksProvider = ({ children }) => {
   const [allBooks, setAllBooks] = useState([]);
+  const [allSections, setAllSections] = useState([]);
+  const [searchResults, setSearchResults] = useState([]);
 
   useEffect(() => {
     const flattenedBooks = data.sections.flatMap((section) =>
@@ -24,6 +26,24 @@ export const BooksProvider = ({ children }) => {
     setAllBooks(flattenedBooks);
   }, []);
 
+  useEffect(() => {
+    const flattenedSections = data.sections.map((section) => ({
+      sectionName: section.name,
+      subsections: section.subsections.map((subsection) => ({
+        subsectionName: subsection.name,
+        shelves: subsection.shelves.map((shelf) => ({
+          shelfId: shelf.shelfId,
+          shelfPosition: shelf.position,
+          author: shelf.author,
+          books: shelf.books,
+        })),
+      })),
+    }));
+
+    setAllSections(flattenedSections);
+  }, []);
+
+  console.log(allSections);
   const searchBooks = (searchTerm) => {
     const lowerSearchTerm = searchTerm.toLowerCase();
 
@@ -35,7 +55,15 @@ export const BooksProvider = ({ children }) => {
   };
 
   return (
-    <BooksContext.Provider value={{ searchBooks, allBooks }}>
+    <BooksContext.Provider
+      value={{
+        searchBooks,
+        allBooks,
+        allSections,
+        searchResults,
+        setSearchResults,
+      }}
+    >
       {children}
     </BooksContext.Provider>
   );
