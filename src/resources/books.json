@@ -2,7 +2,7 @@
   "sections": [
     {
       "id": "1",
-      "name": "Anglo-American Fiction",
+      "name": "Fiction",
       "subsections": [
         {
           "id": "1A",
@@ -19,7 +19,9 @@
                   "copies": [
                     { "barcode": "barcode001", "status": "available" },
                     { "barcode": "barcode002", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "Hercule Poirot must solve a murder mystery aboard a famous train.",
+                  "coverUrl": "https://example.com/murder_on_the_orient_express.jpg"
                 },
                 {
                   "title": "The ABC Murders",
@@ -27,7 +29,9 @@
                   "copies": [
                     { "barcode": "barcode003", "status": "available" },
                     { "barcode": "barcode004", "status": "available" }
-                  ]
+                  ],
+                  "summary": "Hercule Poirot tracks down a serial killer known as 'ABC.'",
+                  "coverUrl": "https://example.com/the_abc_murders.jpg"
                 },
                 {
                   "title": "Death on the Nile",
@@ -35,7 +39,9 @@
                   "copies": [
                     { "barcode": "barcode005", "status": "rented" },
                     { "barcode": "barcode006", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A murder mystery on the Nile River, solved by Hercule Poirot.",
+                  "coverUrl": "https://example.com/death_on_the_nile.jpg"
                 }
               ]
             },
@@ -50,7 +56,9 @@
                   "copies": [
                     { "barcode": "barcode007", "status": "available" },
                     { "barcode": "barcode008", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "The first appearance of Sherlock Holmes as he solves a complex case.",
+                  "coverUrl": "https://example.com/a_study_in_scarlet.jpg"
                 },
                 {
                   "title": "The Hound of the Baskervilles",
@@ -58,7 +66,9 @@
                   "copies": [
                     { "barcode": "barcode009", "status": "available" },
                     { "barcode": "barcode010", "status": "available" }
-                  ]
+                  ],
+                  "summary": "Sherlock Holmes investigates a supernatural hound in a gothic mystery.",
+                  "coverUrl": "https://example.com/the_hound_of_the_baskervilles.jpg"
                 },
                 {
                   "title": "The Sign of the Four",
@@ -66,7 +76,9 @@
                   "copies": [
                     { "barcode": "barcode011", "status": "rented" },
                     { "barcode": "barcode012", "status": "available" }
-                  ]
+                  ],
+                  "summary": "Sherlock Holmes and Watson unravel a treasure hunt mystery.",
+                  "coverUrl": "https://example.com/the_sign_of_the_four.jpg"
                 }
               ]
             },
@@ -81,7 +93,9 @@
                   "copies": [
                     { "barcode": "barcode013", "status": "available" },
                     { "barcode": "barcode014", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "Philip Marlowe investigates a case that leads him into a complex mystery.",
+                  "coverUrl": "https://example.com/the_big_sleep.jpg"
                 },
                 {
                   "title": "Farewell, My Lovely",
@@ -89,7 +103,9 @@
                   "copies": [
                     { "barcode": "barcode015", "status": "available" },
                     { "barcode": "barcode016", "status": "available" }
-                  ]
+                  ],
+                  "summary": "Philip Marlowe searches for a missing woman in a gritty Los Angeles.",
+                  "coverUrl": "https://example.com/farewell_my_lovely.jpg"
                 },
                 {
                   "title": "The Long Goodbye",
@@ -97,7 +113,9 @@
                   "copies": [
                     { "barcode": "barcode017", "status": "rented" },
                     { "barcode": "barcode018", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A hard-boiled detective uncovers dark secrets about a friend and his disappearance.",
+                  "coverUrl": "https://example.com/the_long_goodbye.jpg"
                 }
               ]
             }
@@ -118,7 +136,9 @@
                   "copies": [
                     { "barcode": "barcode019", "status": "available" },
                     { "barcode": "barcode020", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "The epic saga of humanity's future in the galaxy, as envisioned by the Foundation.",
+                  "coverUrl": "https://example.com/foundation.jpg"
                 },
                 {
                   "title": "I, Robot",
@@ -126,7 +146,9 @@
                   "copies": [
                     { "barcode": "barcode021", "status": "available" },
                     { "barcode": "barcode022", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A collection of stories about robots, focusing on their ethical dilemmas and evolving intelligence.",
+                  "coverUrl": "https://example.com/i_robot.jpg"
                 },
                 {
                   "title": "The Caves of Steel",
@@ -134,7 +156,9 @@
                   "copies": [
                     { "barcode": "barcode023", "status": "rented" },
                     { "barcode": "barcode024", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A detective story set in a future where humans and robots must coexist.",
+                  "coverUrl": "https://example.com/the_caves_of_steel.jpg"
                 }
               ]
             },
@@ -149,7 +173,9 @@
                   "copies": [
                     { "barcode": "barcode025", "status": "available" },
                     { "barcode": "barcode026", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "A bounty hunter hunts down rogue androids in a dystopian future.",
+                  "coverUrl": "https://example.com/do_androids_dream.jpg"
                 },
                 {
                   "title": "The Man in the High Castle",
@@ -157,7 +183,9 @@
                   "copies": [
                     { "barcode": "barcode027", "status": "available" },
                     { "barcode": "barcode028", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A counterfactual history where the Axis powers won World War II.",
+                  "coverUrl": "https://example.com/man_in_the_high_castle.jpg"
                 },
                 {
                   "title": "Ubik",
@@ -165,7 +193,9 @@
                   "copies": [
                     { "barcode": "barcode029", "status": "rented" },
                     { "barcode": "barcode030", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A group of people struggle to survive in a bizarre world where reality constantly shifts.",
+                  "coverUrl": "https://example.com/ubik.jpg"
                 }
               ]
             },
@@ -180,7 +210,9 @@
                   "copies": [
                     { "barcode": "barcode031", "status": "available" },
                     { "barcode": "barcode032", "status": "rented" }
-                  ]
+                  ],
+                  "summary": "A voyage to Jupiter uncovers a mysterious alien monolith.",
+                  "coverUrl": "https://example.com/2001_space_odyssey.jpg"
                 },
                 {
                   "title": "Rendezvous with Rama",
@@ -188,7 +220,9 @@
                   "copies": [
                     { "barcode": "barcode033", "status": "available" },
                     { "barcode": "barcode034", "status": "available" }
-                  ]
+                  ],
+                  "summary": "A team of astronauts investigates a massive alien spacecraft entering the solar system.",
+                  "coverUrl": "https://example.com/rendezvous_with_rama.jpg"
                 },
                 {
                   "title": "Childhood's End",
@@ -196,64 +230,489 @@
                   "copies": [
                     { "barcode": "barcode035", "status": "rented" },
                     { "barcode": "barcode036", "status": "available" }
-                  ]
+                  ],
+                  "summary": "Humanity enters a new era after an alien race intervenes, leading to a dramatic transformation.",
+                  "coverUrl": "https://example.com/childhoods_end.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C",
+          "name": "Thriller",
+          "shelves": [
+            {
+              "shelfId": "1C-01",
+              "position": "Top",
+              "author": "John Grisham",
+              "books": [
+                {
+                  "title": "The Firm",
+                  "isbn": "9780440244787",
+                  "copies": [
+                    { "barcode": "barcode037", "status": "available" },
+                    { "barcode": "barcode038", "status": "rented" }
+                  ],
+                  "summary": "A young lawyer gets caught in a dangerous conspiracy while working at a prestigious law firm.",
+                  "coverUrl": "https://example.com/the_firm.jpg"
+                },
+                {
+                  "title": "The Pelican Brief",
+                  "isbn": "9780440211833",
+                  "copies": [
+                    { "barcode": "barcode039", "status": "available" },
+                    { "barcode": "barcode040", "status": "rented" }
+                  ],
+                  "summary": "A law student uncovers a conspiracy involving the highest levels of the U.S. government.",
+                  "coverUrl": "https://example.com/the_pelican_brief.jpg"
+                },
+                {
+                  "title": "A Time to Kill",
+                  "isbn": "9780440245890",
+                  "copies": [
+                    { "barcode": "barcode041", "status": "available" },
+                    { "barcode": "barcode042", "status": "rented" }
+                  ],
+                  "summary": "A lawyer defends a man who murdered two rapists in a racially charged trial.",
+                  "coverUrl": "https://example.com/a_time_to_kill.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1C-02",
+              "position": "Middle",
+              "author": "Lee Child",
+              "books": [
+                {
+                  "title": "Killing Floor",
+                  "isbn": "9780399140224",
+                  "copies": [
+                    { "barcode": "barcode043", "status": "available" },
+                    { "barcode": "barcode044", "status": "available" }
+                  ],
+                  "summary": "Jack Reacher gets caught in a deadly conspiracy after arriving in a small town.",
+                  "coverUrl": "https://example.com/killing_floor.jpg"
+                },
+                {
+                  "title": "Die Trying",
+                  "isbn": "9780399140729",
+                  "copies": [
+                    { "barcode": "barcode045", "status": "available" },
+                    { "barcode": "barcode046", "status": "rented" }
+                  ],
+                  "summary": "Jack Reacher faces off against kidnappers in a battle of wits and strength.",
+                  "coverUrl": "https://example.com/die_trying.jpg"
+                },
+                {
+                  "title": "The Enemy",
+                  "isbn": "9780399140842",
+                  "copies": [
+                    { "barcode": "barcode047", "status": "available" },
+                    { "barcode": "barcode048", "status": "available" }
+                  ],
+                  "summary": "Jack Reacher uncovers corruption within the military.",
+                  "coverUrl": "https://example.com/the_enemy.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1C-03",
+              "position": "Bottom",
+              "author": "David Baldacci",
+              "books": [
+                {
+                  "title": "The Camel Club",
+                  "isbn": "9780446533086",
+                  "copies": [
+                    { "barcode": "barcode049", "status": "available" },
+                    { "barcode": "barcode050", "status": "rented" }
+                  ],
+                  "summary": "A group of eccentric characters band together to uncover a high-stakes conspiracy.",
+                  "coverUrl": "https://example.com/the_camel_club.jpg"
+                },
+                {
+                  "title": "Memory Man",
+                  "isbn": "9781455581575",
+                  "copies": [
+                    { "barcode": "barcode051", "status": "available" },
+                    { "barcode": "barcode052", "status": "available" }
+                  ],
+                  "summary": "A former football star turned detective uses his perfect memory to solve cold cases.",
+                  "coverUrl": "https://example.com/memory_man.jpg"
+                },
+                {
+                  "title": "The Last Mile",
+                  "isbn": "9781455581636",
+                  "copies": [
+                    { "barcode": "barcode053", "status": "rented" },
+                    { "barcode": "barcode054", "status": "available" }
+                  ],
+                  "summary": "Amos Decker returns to solve a case that ties together the death of an innocent man and a long-forgotten mystery.",
+                  "coverUrl": "https://example.com/the_last_mile.jpg"
                 }
               ]
             }
           ]
         }
       ]
-    }
-  ],
-  "allBooks": [
-    {
-      "title": "Murder on the Orient Express",
-      "author": "Agatha Christie",
-      "isbn": "9780062693662",
-      "summary": "Hercule Poirot must solve a murder mystery aboard a famous train.",
-      "coverUrl": "https://example.com/murder_on_the_orient_express.jpg"
     },
     {
-      "title": "The ABC Murders",
-      "author": "Agatha Christie",
-      "isbn": "9780007119299",
-      "summary": "Hercule Poirot tracks down a serial killer known as 'ABC.'",
-      "coverUrl": "https://example.com/the_abc_murders.jpg"
-    },
-    {
-      "title": "Death on the Nile",
-      "author": "Agatha Christie",
-      "isbn": "9780007119329",
-      "summary": "A murder mystery on the Nile River, solved by Hercule Poirot.",
-      "coverUrl": "https://example.com/death_on_the_nile.jpg"
-    },
-    {
-      "title": "A Study in Scarlet",
-      "author": "Arthur Conan Doyle",
-      "isbn": "9780199536955",
-      "summary": "The first appearance of Sherlock Holmes as he solves a complex case.",
-      "coverUrl": "https://example.com/a_study_in_scarlet.jpg"
-    },
-    {
-      "title": "The Hound of the Baskervilles",
-      "author": "Arthur Conan Doyle",
-      "isbn": "9780141032435",
-      "summary": "Sherlock Holmes investigates a supernatural hound in a gothic mystery.",
-      "coverUrl": "https://example.com/the_hound_of_the_baskervilles.jpg"
-    },
-    {
-      "title": "The Sign of the Four",
-      "author": "Arthur Conan Doyle",
-      "isbn": "9780141032473",
-      "summary": "Sherlock Holmes and Watson unravel a treasure hunt mystery.",
-      "coverUrl": "https://example.com/the_sign_of_the_four.jpg"
-    },
-    {
-      "title": "The Big Sleep",
-      "author": "Raymond Chandler",
-      "isbn": "9780394758282",
-      "summary": "Philip Marlowe investigates a case that leads him into a complex mystery.",
-      "coverUrl": "https://example.com/the_big_sleep.jpg"
+      "id": "2",
+      "name": "Fiction",
+      "subsections": [
+        {
+          "id": "1A",
+          "name": "Fantasy",
+          "shelves": [
+            {
+              "shelfId": "1A-01",
+              "position": "Top",
+              "author": "J.R.R. Tolkien",
+              "books": [
+                {
+                  "title": "The Hobbit",
+                  "isbn": "9780007458424",
+                  "copies": [
+                    { "barcode": "barcode001", "status": "available" },
+                    { "barcode": "barcode002", "status": "rented" }
+                  ],
+                  "summary": "The journey of Bilbo Baggins as he embarks on an unexpected adventure.",
+                  "coverUrl": "https://example.com/the_hobbit.jpg"
+                },
+                {
+                  "title": "The Lord of the Rings: The Fellowship of the Ring",
+                  "isbn": "9780547928210",
+                  "copies": [
+                    { "barcode": "barcode003", "status": "available" },
+                    { "barcode": "barcode004", "status": "rented" }
+                  ],
+                  "summary": "The first part of the epic tale where a group of heroes sets off to destroy a powerful ring.",
+                  "coverUrl": "https://example.com/fellowship_of_the_ring.jpg"
+                },
+                {
+                  "title": "The Silmarillion",
+                  "isbn": "9780544338135",
+                  "copies": [
+                    { "barcode": "barcode005", "status": "available" },
+                    { "barcode": "barcode006", "status": "rented" }
+                  ],
+                  "summary": "The ancient and mythical history of Middle-Earth.",
+                  "coverUrl": "https://example.com/the_silmarillion.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1A-02",
+              "position": "Middle",
+              "author": "George R.R. Martin",
+              "books": [
+                {
+                  "title": "A Game of Thrones",
+                  "isbn": "9780553103540",
+                  "copies": [
+                    { "barcode": "barcode007", "status": "available" },
+                    { "barcode": "barcode008", "status": "rented" }
+                  ],
+                  "summary": "The first book in the series that introduces the political intrigue and fantasy elements of Westeros.",
+                  "coverUrl": "https://example.com/a_game_of_thrones.jpg"
+                },
+                {
+                  "title": "A Clash of Kings",
+                  "isbn": "9780553108033",
+                  "copies": [
+                    { "barcode": "barcode009", "status": "available" },
+                    { "barcode": "barcode010", "status": "rented" }
+                  ],
+                  "summary": "The continuation of the struggle for the Iron Throne and the political chaos that follows.",
+                  "coverUrl": "https://example.com/a_clash_of_kings.jpg"
+                },
+                {
+                  "title": "A Storm of Swords",
+                  "isbn": "9780553106633",
+                  "copies": [
+                    { "barcode": "barcode011", "status": "available" },
+                    { "barcode": "barcode012", "status": "rented" }
+                  ],
+                  "summary": "The battle for the throne intensifies as new alliances are formed and old ones are broken.",
+                  "coverUrl": "https://example.com/a_storm_of_swords.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1A-03",
+              "position": "Bottom",
+              "author": "Patrick Rothfuss",
+              "books": [
+                {
+                  "title": "The Name of the Wind",
+                  "isbn": "9780756404736",
+                  "copies": [
+                    { "barcode": "barcode013", "status": "available" },
+                    { "barcode": "barcode014", "status": "rented" }
+                  ],
+                  "summary": "Kvothe, a legendary figure, recounts the story of his life and the trials he faced.",
+                  "coverUrl": "https://example.com/the_name_of_the_wind.jpg"
+                },
+                {
+                  "title": "The Wise Man's Fear",
+                  "isbn": "9780756404705",
+                  "copies": [
+                    { "barcode": "barcode015", "status": "available" },
+                    { "barcode": "barcode016", "status": "rented" }
+                  ],
+                  "summary": "Kvothe continues his journey and seeks to unlock the mysteries of his world.",
+                  "coverUrl": "https://example.com/the_wise_mans_fear.jpg"
+                },
+                {
+                  "title": "The Slow Regard of Silent Things",
+                  "isbn": "9780756408048",
+                  "copies": [
+                    { "barcode": "barcode017", "status": "available" },
+                    { "barcode": "barcode018", "status": "rented" }
+                  ],
+                  "summary": "A novella following a day in the life of Auri, a mysterious character from The Kingkiller Chronicle.",
+                  "coverUrl": "https://example.com/the_slow_regard_of_silent_things.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1B",
+          "name": "Horror",
+          "shelves": [
+            {
+              "shelfId": "1B-01",
+              "position": "Top",
+              "author": "Stephen King",
+              "books": [
+                {
+                  "title": "The Shining",
+                  "isbn": "9780307743657",
+                  "copies": [
+                    { "barcode": "barcode019", "status": "available" },
+                    { "barcode": "barcode020", "status": "rented" }
+                  ],
+                  "summary": "A man struggles to keep his sanity while isolated in a haunted hotel with his family.",
+                  "coverUrl": "https://example.com/the_shining.jpg"
+                },
+                {
+                  "title": "It",
+                  "isbn": "9781501142970",
+                  "copies": [
+                    { "barcode": "barcode021", "status": "available" },
+                    { "barcode": "barcode022", "status": "rented" }
+                  ],
+                  "summary": "A group of children face off against a shape-shifting entity that terrorizes their town.",
+                  "coverUrl": "https://example.com/it.jpg"
+                },
+                {
+                  "title": "Carrie",
+                  "isbn": "9780385086950",
+                  "copies": [
+                    { "barcode": "barcode023", "status": "available" },
+                    { "barcode": "barcode024", "status": "rented" }
+                  ],
+                  "summary": "A high school student with telekinetic powers seeks revenge after being humiliated by her classmates.",
+                  "coverUrl": "https://example.com/carrie.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1B-02",
+              "position": "Middle",
+              "author": "Shirley Jackson",
+              "books": [
+                {
+                  "title": "The Haunting of Hill House",
+                  "isbn": "9780143039983",
+                  "copies": [
+                    { "barcode": "barcode025", "status": "available" },
+                    { "barcode": "barcode026", "status": "rented" }
+                  ],
+                  "summary": "A psychologist investigates a supposedly haunted mansion, with terrifying consequences.",
+                  "coverUrl": "https://example.com/the_haunting_of_hill_house.jpg"
+                },
+                {
+                  "title": "We Have Always Lived in the Castle",
+                  "isbn": "9780143039983",
+                  "copies": [
+                    { "barcode": "barcode027", "status": "available" },
+                    { "barcode": "barcode028", "status": "rented" }
+                  ],
+                  "summary": "Two sisters live in isolation after the rest of their family dies in a mysterious poisoning.",
+                  "coverUrl": "https://example.com/we_have_always_lived_in_the_castle.jpg"
+                },
+                {
+                  "title": "The Sundial",
+                  "isbn": "9780143039990",
+                  "copies": [
+                    { "barcode": "barcode029", "status": "available" },
+                    { "barcode": "barcode030", "status": "rented" }
+                  ],
+                  "summary": "A family begins to spiral into madness after a mysterious prediction about the end of the world.",
+                  "coverUrl": "https://example.com/the_sundial.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1B-03",
+              "position": "Bottom",
+              "author": "H.P. Lovecraft",
+              "books": [
+                {
+                  "title": "The Call of Cthulhu",
+                  "isbn": "9780345364363",
+                  "copies": [
+                    { "barcode": "barcode031", "status": "available" },
+                    { "barcode": "barcode032", "status": "rented" }
+                  ],
+                  "summary": "A man uncovers the ancient evil of Cthulhu, a powerful, god-like creature.",
+                  "coverUrl": "https://example.com/the_call_of_cthulhu.jpg"
+                },
+                {
+                  "title": "At the Mountains of Madness",
+                  "isbn": "9780345364370",
+                  "copies": [
+                    { "barcode": "barcode033", "status": "available" },
+                    { "barcode": "barcode034", "status": "rented" }
+                  ],
+                  "summary": "A team of explorers investigates a mysterious Antarctic mountain range and uncovers dark secrets.",
+                  "coverUrl": "https://example.com/at_the_mountains_of_madness.jpg"
+                },
+                {
+                  "title": "The Shadow over Innsmouth",
+                  "isbn": "9780345364387",
+                  "copies": [
+                    { "barcode": "barcode035", "status": "available" },
+                    { "barcode": "barcode036", "status": "rented" }
+                  ],
+                  "summary": "A man travels to the isolated town of Innsmouth and discovers horrific secrets about its inhabitants.",
+                  "coverUrl": "https://example.com/the_shadow_over_innsmouth.jpg"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "1C",
+          "name": "Romance",
+          "shelves": [
+            {
+              "shelfId": "1C-01",
+              "position": "Top",
+              "author": "Jane Austen",
+              "books": [
+                {
+                  "title": "Pride and Prejudice",
+                  "isbn": "9780141439518",
+                  "copies": [
+                    { "barcode": "barcode037", "status": "available" },
+                    { "barcode": "barcode038", "status": "rented" }
+                  ],
+                  "summary": "Elizabeth Bennet navigates societal pressures, family dynamics, and her feelings for the proud Mr. Darcy.",
+                  "coverUrl": "https://example.com/pride_and_prejudice.jpg"
+                },
+                {
+                  "title": "Sense and Sensibility",
+                  "isbn": "9780141439662",
+                  "copies": [
+                    { "barcode": "barcode039", "status": "available" },
+                    { "barcode": "barcode040", "status": "rented" }
+                  ],
+                  "summary": "The Dashwood sisters, Elinor and Marianne, are two contrasting women who both seek love but must navigate the struggles of society.",
+                  "coverUrl": "https://example.com/sense_and_sensibility.jpg"
+                },
+                {
+                  "title": "Emma",
+                  "isbn": "9780143105897",
+                  "copies": [
+                    { "barcode": "barcode041", "status": "available" },
+                    { "barcode": "barcode042", "status": "rented" }
+                  ],
+                  "summary": "A romantic comedy about a young woman who fancies herself a matchmaker but inadvertently complicates the lives of her friends.",
+                  "coverUrl": "https://example.com/emma.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1C-02",
+              "position": "Middle",
+              "author": "Nicholas Sparks",
+              "books": [
+                {
+                  "title": "The Notebook",
+                  "isbn": "9781455582874",
+                  "copies": [
+                    { "barcode": "barcode043", "status": "available" },
+                    { "barcode": "barcode044", "status": "rented" }
+                  ],
+                  "summary": "A couple's love story endures despite life's hardships and the ravages of time.",
+                  "coverUrl": "https://example.com/the_notebook.jpg"
+                },
+                {
+                  "title": "A Walk to Remember",
+                  "isbn": "9780446608954",
+                  "copies": [
+                    { "barcode": "barcode045", "status": "available" },
+                    { "barcode": "barcode046", "status": "rented" }
+                  ],
+                  "summary": "A rebellious teenager falls in love with a kind and religious young woman, changing both of their lives forever.",
+                  "coverUrl": "https://example.com/a_walk_to_remember.jpg"
+                },
+                {
+                  "title": "Dear John",
+                  "isbn": "9780446543568",
+                  "copies": [
+                    { "barcode": "barcode047", "status": "available" },
+                    { "barcode": "barcode048", "status": "rented" }
+                  ],
+                  "summary": "A soldier and a young woman fall in love, only for the trials of distance and war to put their relationship to the test.",
+                  "coverUrl": "https://example.com/dear_john.jpg"
+                }
+              ]
+            },
+            {
+              "shelfId": "1C-03",
+              "position": "Bottom",
+              "author": "Julia Quinn",
+              "books": [
+                {
+                  "title": "The Duke and I",
+                  "isbn": "9780062932457",
+                  "copies": [
+                    { "barcode": "barcode049", "status": "available" },
+                    { "barcode": "barcode050", "status": "rented" }
+                  ],
+                  "summary": "A romantic comedy set in Regency-era London, focusing on the spirited relationship between Daphne Bridgerton and Simon Basset.",
+                  "coverUrl": "https://example.com/the_duke_and_i.jpg"
+                },
+                {
+                  "title": "The Viscount Who Loved Me",
+                  "isbn": "9780062932464",
+                  "copies": [
+                    { "barcode": "barcode051", "status": "available" },
+                    { "barcode": "barcode052", "status": "rented" }
+                  ],
+                  "summary": "A fiery romance between the charming Anthony Bridgerton and the determined Kate Sheffield.",
+                  "coverUrl": "https://example.com/the_viscount_who_loved_me.jpg"
+                },
+                {
+                  "title": "An Offer from a Gentleman",
+                  "isbn": "9780062932471",
+                  "copies": [
+                    { "barcode": "barcode053", "status": "available" },
+                    { "barcode": "barcode054", "status": "rented" }
+                  ],
+                  "summary": "A Cinderella-inspired romance set in the Regency era.",
+                  "coverUrl": "https://example.com/an_offer_from_a_gentleman.jpg"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
