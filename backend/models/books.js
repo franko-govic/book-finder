@@ -39,6 +39,23 @@ module.exports = function(sequelize, DataTypes) {
         model: 'shelf',
         key: 'shelf_id'
       }
+    },
+    status: {
+      type: DataTypes.STRING(50),
+      allowNull: false
+    },
+    barcode: {
+      type: DataTypes.STRING(20),
+      allowNull: false,
+      unique: "barcode"
+    },
+    category: {
+      type: DataTypes.ENUM('Fiction','Non-fiction','Mystery','Sci-Fi','Romance','Biography'),
+      allowNull: false
+    },
+    genre: {
+      type: DataTypes.ENUM('Thriller','Fantasy','Historical','Adventure','Horror'),
+      allowNull: false
     }
   }, {
     sequelize,
@@ -59,6 +76,14 @@ module.exports = function(sequelize, DataTypes) {
         using: "BTREE",
         fields: [
           { name: "isbn" },
+        ]
+      },
+      {
+        name: "barcode",
+        unique: true,
+        using: "BTREE",
+        fields: [
+          { name: "barcode" },
         ]
       },
       {

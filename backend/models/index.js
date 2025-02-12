@@ -1,8 +1,7 @@
 const { Sequelize, DataTypes } = require("sequelize");
-const sequelize = require("../config/db"); // Adjust path to your db.js file
-const initModels = require("./init-models"); // Path to your initModels.js file
+const sequelize = require("../config/db");
+const initModels = require("./init-models");
 
-// Initialize all models and their relationships
 const models = initModels(sequelize);
 
-module.exports = models; // Export the initialized models
+module.exports = models;

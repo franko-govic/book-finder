@@ -7,17 +7,17 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false,
       primaryKey: true
     },
-    subsection_id: {
-      type: DataTypes.INTEGER,
-      allowNull: true,
-      references: {
-        model: 'subsection',
-        key: 'subsection_id'
-      }
-    },
     name: {
       type: DataTypes.STRING(255),
       allowNull: false
+    },
+    section_id: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      references: {
+        model: 'section',
+        key: 'section_id'
+      }
     }
   }, {
     sequelize,
@@ -33,10 +33,10 @@ module.exports = function(sequelize, DataTypes) {
         ]
       },
       {
-        name: "subsection_id",
+        name: "fk_section_id",
         using: "BTREE",
         fields: [
-          { name: "subsection_id" },
+          { name: "section_id" },
         ]
       },
     ]
