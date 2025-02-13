@@ -1,4 +1,4 @@
-const { section, shelf } = require("../models");
+const { section, shelf, floor } = require("../models");
 
 const sectionController = {
   // Add a new section
@@ -94,6 +94,42 @@ const sectionController = {
       res.status(500).json({
         success: false,
         message: "Error fetching section",
+        error: error.message,
+      });
+    }
+  },
+  // Get all sections for a specific floor_id
+  getSectionsByFloorId: async (req, res) => {
+    const { floor_id } = req.params;
+
+    try {
+      const sections = await section.findAll({
+        where: { floor_id },
+        include: [
+          {
+            model: floor,
+            as: "floor",
+            attributes: ["floor_id", "name"],
+          },
+        ],
+      });
+
+      if (!sections.length) {
+        return res.status(404).json({
+          success: false,
+          message: "No sections found for this floor",
+        });
+      }
+
+      res.status(200).json({
+        success: true,
+        data: sections || [],
+      });
+    } catch (error) {
+      console.error("Error fetching sections for floor:", error);
+      res.status(500).json({
+        success: false,
+        message: "Error fetching sections for floor",
         error: error.message,
       });
     }

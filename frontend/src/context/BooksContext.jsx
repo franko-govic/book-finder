@@ -4,9 +4,58 @@ import data from "../resources/books.json";
 export const BooksContext = createContext();
 
 export const BooksProvider = ({ children }) => {
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
   const [allBooks, setAllBooks] = useState([]);
   const [allSections, setAllSections] = useState([]);
   const [searchResults, setSearchResults] = useState([]);
+
+  const [floors, setFloors] = useState([]);
+  const [selectedFloor, setSelectedFloor] = useState(0);
+  const [sections, setSections] = useState([]);
+
+  useEffect(() => {
+    const fetchFloors = async () => {
+      try {
+        const response = await fetch("http://localhost:3000/api/floors/");
+        if (!response.ok) throw new Error("Failed to fetch floors");
+
+        const data = await response.json();
+        console.log("Fetched Floors Data:", data);
+        setFloors(data.data || []);
+      } catch (err) {
+        console.error("Fetch error:", err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchFloors();
+  }, []);
+
+  useEffect(() => {
+    if (!selectedFloor) return;
+
+    const fetchSections = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:3000/api/sections/floor/${selectedFloor}`
+        );
+        if (!response.ok) throw new Error("Failed to fetch sections");
+
+        const data = await response.json();
+        setSections(data.data);
+      } catch (err) {
+        console.error("Fetch error:", err);
+        setError(err.message);
+      }
+    };
+
+    fetchSections();
+    console.log("Selected Floor in Context Updated:", selectedFloor);
+  }, [selectedFloor]); // ✅ Runs when `selectedFloor` changes
 
   useEffect(() => {
     const flattenedBooks = data.sections.flatMap((section) =>
@@ -62,6 +111,13 @@ export const BooksProvider = ({ children }) => {
         allSections,
         searchResults,
         setSearchResults,
+        floors,
+        loading,
+        error,
+        selectedFloor,
+        setSelectedFloor,
+        sections,
+        setSections,
       }}
     >
       {children}

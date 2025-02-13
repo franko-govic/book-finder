@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+// tesz
 function App() {
   return (
     <div className="h-screen w-full flex flex-col p-5 justify-between gap-5">

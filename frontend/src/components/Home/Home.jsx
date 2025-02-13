@@ -1,6 +1,6 @@
 import React from "react";
 import BookSearch from "../BookSearch";
-import InteractiveMap from "../InteractiveMap";
+import InteractiveMap from "../InteractiveMap/InteractiveMap";
 
 function Home() {
   return (
@@ -9,7 +9,6 @@ function Home() {
         <InteractiveMap />
       </div>
       <div className="w-full h-1/2 lg:w-1/4 lg:h-full  border text-sm">
-        {" "}
         <BookSearch />
       </div>
     </div>

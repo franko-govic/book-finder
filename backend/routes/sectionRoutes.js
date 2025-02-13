@@ -8,5 +8,6 @@ router.get("/", sectionController.getAllSections);
 router.get("/:id", sectionController.getSectionById);
 router.put("/:id", sectionController.updateSection);
 router.delete("/:id", sectionController.deleteSection);
+router.get("/floor/:floor_id", sectionController.getSectionsByFloorId);
 
 module.exports = router;
