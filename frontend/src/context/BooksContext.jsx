@@ -14,7 +14,10 @@ export const BooksProvider = ({ children }) => {
   const [floors, setFloors] = useState([]);
   const [selectedFloor, setSelectedFloor] = useState(0);
   const [sections, setSections] = useState([]);
+  const [selectedSection, setSelectedSection] = useState(0);
+  const [shelves, setShelves] = useState([]);
 
+  //All floors
   useEffect(() => {
     const fetchFloors = async () => {
       try {
@@ -35,6 +38,7 @@ export const BooksProvider = ({ children }) => {
     fetchFloors();
   }, []);
 
+  //Sections by floor_id
   useEffect(() => {
     if (!selectedFloor) return;
 
@@ -55,7 +59,29 @@ export const BooksProvider = ({ children }) => {
 
     fetchSections();
     console.log("Selected Floor in Context Updated:", selectedFloor);
-  }, [selectedFloor]); // ✅ Runs when `selectedFloor` changes
+  }, [selectedFloor]);
+
+  //Shelves by section_id
+  useEffect(() => {
+    if (!selectedSection) return;
+
+    const fetchSections = async () => {
+      try {
+        const response = await fetch(
+          `http://localhost:3000/api/shelves/section/${selectedSection}`
+        );
+        if (!response.ok) throw new Error("Failed to fetch shelves");
+
+        const data = await response.json();
+        setShelves(data.data);
+      } catch (err) {
+        console.error("Fetch error:", err);
+        setError(err.message);
+      }
+    };
+
+    fetchSections();
+  }, [selectedSection]);
 
   useEffect(() => {
     const flattenedBooks = data.sections.flatMap((section) =>
@@ -118,6 +144,10 @@ export const BooksProvider = ({ children }) => {
         setSelectedFloor,
         sections,
         setSections,
+        selectedSection,
+        setSelectedSection,
+        shelves,
+        setShelves,
       }}
     >
       {children}

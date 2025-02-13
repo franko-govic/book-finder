@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
+import SectionFront from "../FrontView/SectionFront";
 
 import TopView from "../TopView/TopView";
+import { BooksContext } from "../../context/BooksContext";
 
 function InteractiveMap() {
-  const [toggleTopView, setToggleTopView] = useState(true);
-
-  const [toggleFrontView, setFrontView] = useState(true);
+  const { selectedSection } = useContext(BooksContext);
 
   return (
     <div className="border w-full h-full relative">
-      <button className="absolute z-10 top-5 right-5 border">topview</button>
-      {toggleTopView && <TopView />}
+      {!selectedSection ? <TopView /> : <SectionFront />}
     </div>
   );
 }

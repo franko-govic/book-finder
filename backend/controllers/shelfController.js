@@ -90,6 +90,41 @@ const shelfController = {
       });
     }
   },
+  getShelvesBySectionId: async (req, res) => {
+    const { section_id } = req.params;
+
+    try {
+      const shelves = await shelf.findAll({
+        where: { section_id },
+        include: [
+          {
+            model: section,
+            as: "section",
+            attributes: ["section_id", "name"],
+          },
+        ],
+      });
+
+      if (!shelves.length) {
+        return res.status(404).json({
+          success: false,
+          message: "No shelves found for this section",
+        });
+      }
+
+      res.status(200).json({
+        success: true,
+        data: shelves || [],
+      });
+    } catch (error) {
+      console.error("Error fetching shelves for section:", error);
+      res.status(500).json({
+        success: false,
+        message: "Error fetching shelves for section",
+        error: error.message,
+      });
+    }
+  },
 
   // Update a shelf by its ID
   updateShelf: async (req, res) => {

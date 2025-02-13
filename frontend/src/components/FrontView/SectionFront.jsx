@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useContext } from "react";
+import { BooksContext } from "../../context/BooksContext";
+import Shelf from "./Shelf";
 
 function SectionFront() {
+  const { selectedSection, setSelectedSection, shelves } =
+    useContext(BooksContext);
   return (
-    <div className="bg-blue-200 grid grid-cols-10 grid-rows-2 place-content-center p-1 gap-1 relative">
-      <div className="z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  bg-white p-2 uppercase text-xs">
-        kjasd
+    <div className="relative w-full h-full p-5">
+      <button
+        onClick={() => setSelectedSection(!selectedSection)}
+        className="absolute top-2 right-2 border-2 p-1 bg-white"
+      >
+        BACK---
+      </button>
+      <div className="w-full h-full grid grid-rows-3 grid-cols-3 items-center text-center  border-2 border-yellow-600">
+        {shelves.map((data, index) => (
+          <Shelf key={index} name={data.name} />
+        ))}
       </div>
     </div>
   );
