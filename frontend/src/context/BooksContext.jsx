@@ -4,19 +4,17 @@ import data from "../resources/books.json";
 export const BooksContext = createContext();
 
 export const BooksProvider = ({ children }) => {
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
-
-  const [allBooks, setAllBooks] = useState([]);
-  const [allSections, setAllSections] = useState([]);
-  const [searchResults, setSearchResults] = useState([]);
-
+  const [books, setBooks] = useState([]);
   const [floors, setFloors] = useState([]);
   const [selectedFloor, setSelectedFloor] = useState(0);
   const [sections, setSections] = useState([]);
   const [selectedSection, setSelectedSection] = useState(0);
   const [shelves, setShelves] = useState([]);
 
+  const [searchResults, setSearchResults] = useState([]);
+
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   //All floors
   useEffect(() => {
     const fetchFloors = async () => {
@@ -83,46 +81,31 @@ export const BooksProvider = ({ children }) => {
     fetchSections();
   }, [selectedSection]);
 
+  //All books
   useEffect(() => {
-    const flattenedBooks = data.sections.flatMap((section) =>
-      section.subsections.flatMap((subsection) =>
-        subsection.shelves.flatMap((shelf) =>
-          shelf.books.map((book) => ({
-            ...book,
-            sectionName: section.name,
-            subsectionName: subsection.name,
-            shelfPosition: shelf.position,
-            shelfId: shelf.shelfId,
-            author: shelf.author,
-          }))
-        )
-      )
-    );
-    setAllBooks(flattenedBooks);
+    const fetchBooks = async () => {
+      try {
+        const response = await fetch("http://localhost:3000/api/books/");
+        if (!response.ok) throw new Error("Failed to fetch books");
+
+        const data = await response.json();
+        console.log("Fetched Books Data:", data);
+        setBooks(data.data || []);
+      } catch (err) {
+        console.error("Fetch error:", err);
+        setError(err.message);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBooks();
   }, []);
 
-  useEffect(() => {
-    const flattenedSections = data.sections.map((section) => ({
-      sectionName: section.name,
-      subsections: section.subsections.map((subsection) => ({
-        subsectionName: subsection.name,
-        shelves: subsection.shelves.map((shelf) => ({
-          shelfId: shelf.shelfId,
-          shelfPosition: shelf.position,
-          author: shelf.author,
-          books: shelf.books,
-        })),
-      })),
-    }));
-
-    setAllSections(flattenedSections);
-  }, []);
-
-  console.log(allSections);
+  //Book search function
   const searchBooks = (searchTerm) => {
     const lowerSearchTerm = searchTerm.toLowerCase();
-
-    return allBooks.filter(
+    return books.filter(
       (book) =>
         book.title.toLowerCase().includes(lowerSearchTerm) ||
         book.author.toLowerCase().includes(lowerSearchTerm)
@@ -133,8 +116,7 @@ export const BooksProvider = ({ children }) => {
     <BooksContext.Provider
       value={{
         searchBooks,
-        allBooks,
-        allSections,
+        books,
         searchResults,
         setSearchResults,
         floors,

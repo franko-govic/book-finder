@@ -1,4 +1,4 @@
-const { books } = require("../models");
+const { books, shelf, section } = require("../models");
 
 const booksController = {
   // Add new book
@@ -50,10 +50,47 @@ const booksController = {
   // Get all books
   getAllBooks: async (req, res) => {
     try {
-      const booksList = await books.findAll();
+      const booksList = await books.findAll({
+        include: [
+          {
+            model: shelf,
+            as: "shelf",
+            attributes: ["shelf_id"],
+            include: [
+              {
+                model: section,
+                as: "section",
+                attributes: ["section_id"],
+              },
+            ],
+          },
+        ],
+      });
+
+      const flattenedBooks = booksList.map((book) => {
+        const shelfData = book.shelf;
+        const sectionData = shelfData ? shelfData.section : null;
+
+        return {
+          book_id: book.book_id,
+          title: book.title,
+          isbn: book.isbn,
+          year_published: book.year_published,
+          author: book.author,
+          summary: book.summary,
+          cover_url: book.cover_url,
+          shelf_id: shelfData ? shelfData.shelf_id : null,
+          section_id: sectionData ? sectionData.section_id : null,
+          status: book.status,
+          barcode: book.barcode,
+          category: book.category,
+          genre: book.genre,
+        };
+      });
+
       res.status(200).json({
         success: true,
-        data: booksList,
+        data: flattenedBooks,
       });
     } catch (error) {
       console.error("Error fetching books:", error);

@@ -15,7 +15,7 @@ function SectionFront() {
       </button>
       <div className="w-full h-full grid grid-rows-3 grid-cols-3 items-center text-center  border-2 border-yellow-600">
         {shelves.map((data, index) => (
-          <Shelf key={index} name={data.name} />
+          <Shelf key={index} data={data} />
         ))}
       </div>
     </div>

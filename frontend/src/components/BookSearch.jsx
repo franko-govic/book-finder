@@ -38,11 +38,6 @@ const BookSearch = () => {
           ) : (
             <div className="h-full flex flex-col p-5 gap-5  ">
               {searchResults.map((book, index) => {
-                const availableCopies = book.copies.filter(
-                  (copy) => copy.status === "available"
-                ).length;
-                const totalCopies = book.copies.length;
-
                 return (
                   <div
                     key={book.isbn}
@@ -54,10 +49,6 @@ const BookSearch = () => {
                     <div className="flex-1 flex flex-col gap-1">
                       <p>Title: {book.title}</p>
                       <p>Author: {book.author}</p>
-
-                      <p>
-                        Available: {availableCopies} / {totalCopies} copies
-                      </p>
                     </div>
                   </div>
                 );
